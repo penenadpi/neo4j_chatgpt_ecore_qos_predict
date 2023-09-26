@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<predictionProblem:PredictionProblem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:predictionProblem="http://www.example.org/predictionProblem" xmi:id="_RRFDUEvkEe6D3eTPPnJbrg">
+  <predictivemodel xsi:type="predictionProblem:Classification" xmi:id="_SDeJkEvkEe6D3eTPPnJbrg">
+    <dataset xmi:id="_jsICUEvkEe6D3eTPPnJbrg" fileName="qos_predict.csv">
+      <variable xsi:type="predictionProblem:Input" xmi:id="_p86D4EvkEe6D3eTPPnJbrg" name="CC" type="Float"/>
+      <variable xsi:type="predictionProblem:Input" xmi:id="_qufR0EvkEe6D3eTPPnJbrg" name="BsId" type="Integer"/>
+      <variable xsi:type="predictionProblem:Input" xmi:id="_rBjXwEvkEe6D3eTPPnJbrg" name="AreaId" type="Integer"/>
+      <variable xsi:type="predictionProblem:Input" xmi:id="_rf784EvkEe6D3eTPPnJbrg" name="Nusers" type="Integer"/>
+      <variable xsi:type="predictionProblem:Input" xmi:id="_rvMg4EvkEe6D3eTPPnJbrg" name="Season" type="Integer"/>
+      <variable xsi:type="predictionProblem:Target" xmi:id="_uJmt0EvkEe6D3eTPPnJbrg" name="QoS" type="Integer"/>
+    </dataset>
+  </predictivemodel>
+</predictionProblem:PredictionProblem>
